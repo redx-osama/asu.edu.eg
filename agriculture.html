@@ -584,7 +584,8 @@
     <div class="dashboard-page active" id="dashboardPage">
         <div class="dash-header">
             <div style="width:178px;height:71px;overflow:hidden;">
-    <img src="https://www.asu.edu.eg/frontend/images/logo.png" style="width:178px;height:71px;object-fit:contain;display:block;">
+    <a href="https://www.asu.edu.eg/ar"> <img class="fulltext-image" src="https://www.asu.edu.eg/frontend/images/logo.png" alt="جامعة عين شمس - كلية الطب" style="width:178px;height:71px;object-fit:contain;display:block;">
+                     </a>
 </div>
             <button class="logout-btn" onclick="handleLogout()">
                 خروج <span style="margin-right: 6px;">→</span>
@@ -594,10 +595,12 @@
         <div class="profile-hero">
             <div class="profile-photo-container">
                 <div class="profile-photo-ring"></div>
-                <div class="profile-photo" id="profilePhoto"><img src="https://i.postimg.cc/3NyRn6BM/b7f1e212-fb08-4b40-ae93-4bd941e233a7.jpg" alt="صورة" style="width:100%;height:100%;object-fit:cover;"></div>
+                <div class="profile-photo" id="profilePhoto"><img src="https://i.postimg.cc/6qPF6tzx/photo-6010496505724211127-y.jpg" alt="صورة" style="width:100%;height:100%;object-fit:cover;"></div>
             </div>
-            <h2 class="profile-name" id="profileName">مريم نبيل العيبي الجابري</h2>
-            <p class="profile-subtitle" id="profileSubtitle">كلية الطب - جامعة عين شمس </p>
+            <h2 class="profile-name" id="profileName">علي عبدالسلام علي احمد</h2>
+            <p class="profile-subtitle" id="profileSubtitle">كلية الشريعة والقانون
+ - جامعة عين شمس
+</p>
             <div class="status-badge">
                 <span style="font-size: 1.1rem;">✓</span> حساب خريج نشط
             </div>
@@ -612,19 +615,19 @@
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">📍</span>الموقع</span>
-                    
+                    <span class="info-value" id="address">أسيوط</span>
                 </div><div class="info-row">
-                    <span class="info-label"><span style="margin-left:6px;">📁</span>رقم الجواز</span>
-                    
+                    <span class="info-label"><span style="margin-left:6px;">📁</span>الرقم القومي</span>
+                    <span class="info-value highlight" id="nationalIdDisplay">30308052502771</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">📅</span> تاريخ الميلاد</span>
-                    
+                    <span class="info-value" id="birthDate">2003/08/05</span>
                 </div>
                 
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">🌏</span> الجنسية</span>
-                    
+                    <span class="info-value" id="nationality">مصري</span>
                 </div>
             </div>
 
@@ -636,19 +639,16 @@
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">🏫</span> الجامعة</span>
-                    <span class="info-value" id="university"></span>
+                    <span class="info-value" id="university">عين شمس</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">🏢</span> الكلية</span>
-                    <span class="info-value" id="faculty"></span>
+                    <span class="info-value" id="faculty">الشريعة والقانون</span>
                 </div>
-                <div class="info-row">
-                    <span class="info-label"><span style="margin-left:6px;">📖</span>التخصص</span>
-                    <span class="info-value" id="major"></span>
-                </div>
+                
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">⏰</span>سنة التخرج</span>
-                    <span class="info-value" id="major">
+                    <span class="info-value" id="major">2024
 </span>
                 </div>
             </div>
@@ -661,19 +661,19 @@
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">⭐</span> التقدير العام</span>
-                    
+                    <span class="info-value success" id="grade">جيد جداً</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">✅</span> حالة الشهادة</span>
-                    
+                    <span class="info-value success">معتمدة وموثقة</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">💻</span>رقم القيد</span>
-                    
+                    <span class="info-value code" id="verifyCode">0351254</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label"><span style="margin-left:6px;">📈</span> النسبة المئوية</span>
-                    <span class="info-value success" id="percentage"></span>
+                    <span class="info-value success" id="percentage">85.75%</span>
                 </div>
                 
                 
